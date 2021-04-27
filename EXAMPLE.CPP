@@ -32,6 +32,7 @@ void main() {
 			if (click==1) printf("\nClick Izquierdo en la posicion\t = %d, %d\t",x, y);
 			if (click==2) printf("\nClick Derecho en la posicion\t = %d, %d\t",x, y);
 			if (click==4) printf("\nClick Central en la posicion\t = %d, %d\t",x, y);
+			delay(50);
 		}
 		getch();
 		closegraph();
