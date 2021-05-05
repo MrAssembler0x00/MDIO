@@ -91,61 +91,62 @@ FUNCIONES DE LA LIBRERÍA MDIO.H
 
 
 FUNCIONES PRINCIPALES
-	startmd
-	Inicializa el ratón, devuelve el estado del mouse.
-	SI existe el mouse devolverá un 1 si no existe devolver un 0;
-	int startmd();
 
-	showmd
-	Muestra de forma gráfica o no grafica el mouse;
-	void showmd();
+startmd
+Inicializa el ratón, devuelve el estado del mouse.
+SI existe el mouse devolverá un 1 si no existe devolver un 0;
+int startmd();
 
-	hidemd
-	Oculta el mouse de la pantalla;
-	void hidemd();
+showmd
+Muestra de forma gráfica o no grafica el mouse;
+void showmd();
+
+hidemd
+Oculta el mouse de la pantalla;
+void hidemd();
 
 
 FUNCIONES DE EXTRACION DE DATOS
-	getmd_all
-	Devuelve el click del mouse, posición X y posición Y;
-	void getmd_all(int*,int*,int*);
+getmd_all
+Devuelve el click del mouse, posición X y posición Y;
+void getmd_all(int*,int*,int*);
 
-	getmd_pos
-	Devuelve la posición X y posición Y;
-	void getmd_pos(int*,int*);
+getmd_pos
+Devuelve la posición X y posición Y;
+void getmd_pos(int*,int*);
 
-	getmd_press
-	Devuelve el click del mouse;
-	void getmd_press(int*);
+getmd_press
+Devuelve el click del mouse;
+void getmd_press(int*);
 
-	getmd_x
-	Devuelve solo la posición X;
-	void getmd_x(int*);
+getmd_x
+Devuelve solo la posición X;
+void getmd_x(int*);
 
-	getmd_y
-	Devuelve solo la posición X;
-	void getmd_y(int*);
+getmd_y
+Devuelve solo la posición X;
+void getmd_y(int*);
 
 
 FUNCIONES DE INSERCION DE DATOS
-•	setmd_pos
-	Se introduce la nueva posición X e Y del mouse;
-	void setmd_pos(int*,int*);
+setmd_pos
+Se introduce la nueva posición X e Y del mouse;
+void setmd_pos(int*,int*);
 
-•	setmd_x
-	Se introduce la nueva posicion X;
-	void setmd_x(int*);
+setmd_x
+Se introduce la nueva posicion X;
+void setmd_x(int*);
 
-•	setmd_y
-	Se introduce la nueva posicion Y;
-	void setmd_y(int*);
+setmd_y
+Se introduce la nueva posicion Y;
+void setmd_y(int*);
 
 
 FUNCIONES DE DELIMITACION DEL MOUSE
-•	delmd_x
-	Limita posicion X con minimo y maximo;
-	void delmd_x(int*,int*);
+delmd_x
+Limita posicion X con minimo y maximo;
+void delmd_x(int*,int*);
 
-•	delmd_y
-	Limita posicion X con minimo y maximo;
-	void delmd_y(int*,int*);
+delmd_y
+Limita posicion X con minimo y maximo;
+void delmd_y(int*,int*);
