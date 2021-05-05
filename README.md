@@ -15,7 +15,7 @@ Para lanzar la interrupción, usaremos la función de la librería dos.h int86, 
 int int86(int numero_interrupcion, union REGS *registros_entrada, union REGS *registros_salida);
 
 
-							ESQUEMA DE INSTRUCIONES 				AX
+ESQUEMA DE INSTRUCIONES AX
 
 
 Detecta el mouse
@@ -67,6 +67,8 @@ Rango de desplazamiento de Y – Vertical
 Input:
 	DX = V ‘mínimo’
 	CX = V ‘máximo’
+
+=============================================
 
 
 
